@@ -1,0 +1,22 @@
+<div class="container">
+  <div class="header">
+    <img (click)="deleteList(list.id)" class="deleteButton" src="../../../assets/deleteButton.png"/>
+    <div>{{list.title}}</div>
+    <div>{{this.list.reminders.length}}</div>
+  </div>
+<div class="reminderContainer">
+  <li class="list" *ngFor="let reminder of list.reminders">
+    <reminder  *ngIf="this.list.visible"
+    [reminder]="reminder"
+    [selectedOnCreate]="true"
+    (deleteReminderEvent)="deleteReminder($event)"
+    (changeReminderEvent)="changeReminder($event)"
+    ></reminder>
+  </li>
+</div>
+
+  <div (click)="addReminder()"  id="addButton" class="addReminderContainer">
+    <img class="addButton" src="../../../assets/addButton.png"/>
+  </div>
+
+</div>

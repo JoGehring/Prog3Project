@@ -1,0 +1,28 @@
+<div class ="container">
+
+  <div class="main">
+    <div class="side">
+<button name="Today" (click)="showTodaysReminders()" class="buttons"><img src="../../../assets/calendar-icon.png" height="20px">Today</button>
+<button name="Flagged" (click)="showFlaggedReminders()" class="flagButton"><img src="../../../assets/flag_checked.png" height="20px">Flagged</button>
+<ol class="nameList">
+  <li *ngFor="let list of app.lists; let i in index">
+    <input type="text" [(ngModel)]="list.title"  [selectionEnd]="i" class="input" (blur)="changeListTitle(list)"/>
+    <img *ngIf="!list.visible" src="../../../assets/arrow_inverted.png" (click)="hideList(); showList(list)" class="arrow"/>
+    <img *ngIf="list.visible" src="../../../assets/arrow.png" (click)="hideList()" class="arrow"/>
+  </li>
+</ol>
+<button (click)="addEmptyList(); this.focus = true; this.focusInput()" class="addButton">
+  <img height="20px" src="../../../assets/addButton.png"/> Add new List
+</button>
+</div>
+  <div class="listsContainer" autofocus>
+    <today *ngIf="this.showToday" [list]="this.todayList" (deleteReminderEvent)="deleteSpecialReminder($event)" (changeReminderEvent)="changeSpecialReminder($event)"></today>
+    <flagged *ngIf="this.showFlagged" [list]="this.flaggedList" (deleteReminderEvent)="deleteSpecialReminder($event)" (changeReminderEvent)="changeSpecialReminder($event)"></flagged>
+    <ul class="list">
+    <li  *ngFor="let list of app.lists">
+    <list *ngIf="list.visible" [list]="list" (deleteListEvent)="deleteList($event)" (deleteReminderEvent)="deleteReminder($event)"></list>
+    </li>
+  </ul>
+</div>
+  </div>
+</div>

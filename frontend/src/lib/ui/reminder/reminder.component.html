@@ -1,0 +1,11 @@
+<div class="container">
+    <div>
+      <input type="checkbox" (click)="deleteReminder()" class="checkbox">
+    </div>
+    <input class="titleInput" type="text" #reminderTitleInput [(ngModel)]="this.reminder.title" (blur)="changeReminder()"/>
+    <input type="date" [(ngModel)]="this.reminder.timestamp" (blur)="changeReminder()" class="calendar">
+    <img *ngIf="this.reminder.flag == 1" src="../../../assets/flag_checked.png" (click)="changeFlag()" class="flag_icon"/>
+    <img *ngIf="this.reminder.flag == 0" src="../../../assets/flag_unchecked.png" (click)="changeFlag()" class="flag_icon"/>
+  </div>
+
+<!-- (click)="deleteReminder(this.reminder.id)" src="../../../assets/deleteButton.png" class = "deleteButton"/ -->

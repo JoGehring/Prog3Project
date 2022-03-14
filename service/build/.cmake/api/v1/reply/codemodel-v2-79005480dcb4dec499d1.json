@@ -1,0 +1,127 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4
+					],
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16.0"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "extern/crowcpp",
+					"jsonFile" : "directory-extern.crowcpp-Debug-f81f264555f6d051d7da.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "extern/crowcpp"
+				},
+				{
+					"build" : "extern/rapidjson",
+					"jsonFile" : "directory-extern.rapidjson-Debug-6fa034229713d6cae05e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "extern/rapidjson"
+				},
+				{
+					"build" : "extern/sqlite",
+					"jsonFile" : "directory-extern.sqlite-Debug-238956e97e46761f1021.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "extern/sqlite",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "src",
+					"jsonFile" : "directory-src-Debug-b6cf2213fc5053b67c22.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "src",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					],
+					"name" : "Reminder",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 4,
+					"id" : "Service::@145eef247bfb46b6828c",
+					"jsonFile" : "target-Service-Debug-50d1cd6c323f5af26957.json",
+					"name" : "Service",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "sqlite3::@43e7a5b0416ee44582d2",
+					"jsonFile" : "target-sqlite3-Debug-826e234fb9035abf90b7.json",
+					"name" : "sqlite3",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/johannesGehring 1/Documents/Informatik/Programmieren III/portfolio-ws2021-gruppe-8/service/build",
+		"source" : "/Users/johannesGehring 1/Documents/Informatik/Programmieren III/portfolio-ws2021-gruppe-8/service"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

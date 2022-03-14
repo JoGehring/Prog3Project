@@ -1,0 +1,12 @@
+/Users/johannesGehring 1/Documents/Informatik/Programmieren III/portfolio-ws2021-gruppe-8/service/build/CMakeFiles/rebuild_cache.dir
+/Users/johannesGehring 1/Documents/Informatik/Programmieren III/portfolio-ws2021-gruppe-8/service/build/CMakeFiles/edit_cache.dir
+/Users/johannesGehring 1/Documents/Informatik/Programmieren III/portfolio-ws2021-gruppe-8/service/build/extern/crowcpp/CMakeFiles/rebuild_cache.dir
+/Users/johannesGehring 1/Documents/Informatik/Programmieren III/portfolio-ws2021-gruppe-8/service/build/extern/crowcpp/CMakeFiles/edit_cache.dir
+/Users/johannesGehring 1/Documents/Informatik/Programmieren III/portfolio-ws2021-gruppe-8/service/build/extern/rapidjson/CMakeFiles/rebuild_cache.dir
+/Users/johannesGehring 1/Documents/Informatik/Programmieren III/portfolio-ws2021-gruppe-8/service/build/extern/rapidjson/CMakeFiles/edit_cache.dir
+/Users/johannesGehring 1/Documents/Informatik/Programmieren III/portfolio-ws2021-gruppe-8/service/build/extern/sqlite/CMakeFiles/rebuild_cache.dir
+/Users/johannesGehring 1/Documents/Informatik/Programmieren III/portfolio-ws2021-gruppe-8/service/build/extern/sqlite/CMakeFiles/edit_cache.dir
+/Users/johannesGehring 1/Documents/Informatik/Programmieren III/portfolio-ws2021-gruppe-8/service/build/extern/sqlite/CMakeFiles/sqlite3.dir
+/Users/johannesGehring 1/Documents/Informatik/Programmieren III/portfolio-ws2021-gruppe-8/service/build/src/CMakeFiles/rebuild_cache.dir
+/Users/johannesGehring 1/Documents/Informatik/Programmieren III/portfolio-ws2021-gruppe-8/service/build/src/CMakeFiles/edit_cache.dir
+/Users/johannesGehring 1/Documents/Informatik/Programmieren III/portfolio-ws2021-gruppe-8/service/build/src/CMakeFiles/Service.dir
